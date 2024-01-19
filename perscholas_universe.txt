@@ -1,0 +1,44 @@
+##############################################################
+#   Group Name: GROUP FIVE                                   #
+#   Group members: Francis, Dickson, Chioma, Susmita, Justin #
+#   Title: Basic CLI commands                                #
+##############################################################
+
+
+mkdir PERSCHOLUNIVERSE
+cd PERSCHOLUNIVERSE
+pwd
+mkdir space-center international-astronomical-union space-x space-y space-z wannabe-villains
+cd space-center;touch  ellen nehemiah andrew suresh rema richard tyrell randi brittany chioma
+ls
+cd ..
+mv space-center/{richard,tyrell,randi,brittany,chioma} space-x
+ls space-x
+cd international-astronomical-union
+touch sandra manny shamaine maireg alpha justin rockelle timorra aleena yiwen richard ahmed
+ls
+mv {sandra,manny,shamaine,maireg,alpha} ../space-y;mv {justin,rockelle,timorra,aleena,yiwen,richard,ahmed} ../space-z
+cd ..
+ls space-y
+ls space-z
+echo "Calling the following perscholastronauts to command IAU: jacob, charles, francis, ciera, corey, dickson, sabrun, and muhammad.">>iau.txt
+ls
+cat iau.txt
+cd wannabe-villains
+touch sage tristan hewan susmita michael
+ls
+cd ..
+mv wannabe-villains plutonians
+ls
+touch .404yourenotfound
+ls -a
+rm -r space-y space-z
+ls
+mv chioma 500internalservererror
+ls
+rm {randi,tyrell,brittany,richard};ls
+cd ..
+mv space-x space-center;cd space-center;ls
+echo “I’m SOOO sad that my fellow perscholastronauts have perished while fixing issues outside the spacecraft. With the completion of this mission we have determined that the red patches on Pluto are bruises from all the times Earth said it wasn’t a planet. Oops, I mean. They’re just special red pigmentation from Tholin. Pluto is also too dangerous and should not be considered a planet. We should stop looking at Pluto. Sincerely, 500internalserverror…I mean Chioma.">>mission-report.txt
+ls
+clear
